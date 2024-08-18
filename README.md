@@ -25,4 +25,5 @@ Asem Zabin
 azab168@aucklanduni.ac.nz
 
 ## Citation:
-https://citation-file-format.github.io/
+CITATION.cff
+
