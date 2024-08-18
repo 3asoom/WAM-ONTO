@@ -22,4 +22,4 @@ Apache License 2.0
 
 ## Contact
 Asem Zabin
-aza168@aucklanduni.ac.nz
+azab168@aucklanduni.ac.nz
