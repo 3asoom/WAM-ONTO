@@ -1,20 +1,25 @@
-# Water Treatment Plan Asset Management Ontology (WAM-ONTO)
+# Water Asset Management Ontology (WAM-ONTO)
 
-WAM-ONTO is an ontology designed to represent water treatment plant assets, their relationships, and properties for improved asset management.
+**A standardized ontology for water treatment plant asset management**
+
+WAM-ONTO is a comprehensive framework designed to represent and manage water treatment plant assets, their relationships, and associated data. It aims to improve decision-making, optimize operations, and facilitate data exchange within the water treatment industry.
 
 ## Key Features
-* Standardized representation of water treatment plant assets
-* Facilitates data exchange and integration
-* Supports informed decision-making
+* Hierarchical classification of water treatment plant assets
+* Representation of asset relationships and dependencies
+* Support for asset lifecycle management
+* Integration with BIM and other data sources
+
 
 ## Usage
-Enhance information requirements for water asset O&M
-Promote seamless information exchange between disparate systems
-Facilitate efficient information retrieval using structured queries.
+* Enhance information requirements for water asset O&M
+* Promote seamless information exchange between disparate systems
+* Facilitate efficient information retrieval using structured queries.
 
 
 ## License
-[Specify license, e.g., MIT License]
+Apache License 2.0
 
 ## Contact
-[Your contact information]
+Asem Zabin
+aza168@aucklanduni.ac.nz
