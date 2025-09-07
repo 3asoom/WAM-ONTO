@@ -1,0 +1,2808 @@
+@prefix : <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/> .
+
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto> rdf:type owl:Ontology ;
+                                                               rdfs:comment "This Ontology is about Water Treatment plants" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Lifting_Capacity_(SWL)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Lifting_Capacity_(SWL)> rdf:type owl:ObjectProperty ;
+                                                                                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ASSET.Area
+:ASSET.Area rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ASSET.Complex.ID
+:ASSET.Complex.ID rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ASSET.ID
+:ASSET.ID rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ASSET.UnitDesc
+:ASSET.UnitDesc rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Capacity
+:Capacity rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/CapacityUOM
+:CapacityUOM rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Condition
+:Condition rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Construction_Type
+:Construction_Type rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Criticality.Code
+:Criticality.Code rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Depth
+:Depth rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/DepthUOM
+:DepthUOM rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Diameter
+:Diameter rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/DiameterUOM
+:DiameterUOM rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/DirectionToOpen
+:DirectionToOpen rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ExpireDate
+:ExpireDate rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ForDisposal
+:ForDisposal rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/FunctionalOutput
+:FunctionalOutput rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Height
+:Height rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/HeightUOM
+:HeightUOM rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Impeller_Code
+:Impeller_Code rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Impeller_Material
+:Impeller_Material rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ImpellorDia
+:ImpellorDia rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ImpellorType
+:ImpellorType rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/InstalledDate
+:InstalledDate rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Length
+:Length rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/LengthUOM
+:LengthUOM rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/LiftingCapacityUOM
+:LiftingCapacityUOM rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Make
+:Make rdf:type owl:ObjectProperty ;
+      rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Material
+:Material rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ModelNumber
+:ModelNumber rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Motor_Protection
+:Motor_Protection rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/OverflowLevel
+:OverflowLevel rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ownership
+:Ownership rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/PressureRating
+:PressureRating rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/PressureRatingPN
+:PressureRatingPN rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pump_Redundancy_Strategy
+:Pump_Redundancy_Strategy rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Purchased
+:Purchased rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Purchcost
+:Purchcost rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ReplacementCost
+:ReplacementCost rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/SerialNumber
+:SerialNumber rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ServiceStatus
+:ServiceStatus rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/SpecialInstructions
+:SpecialInstructions rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/UnitType
+:UnitType rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/WarrantyEnd
+:WarrantyEnd rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/WarrantyStart
+:WarrantyStart rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Width
+:Width rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/WidthUOM
+:WidthUOM rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/XCoordinate
+:XCoordinate rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/YCoordinate
+:YCoordinate rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/ZCoordinate
+:ZCoordinate rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#has3rdDimension
+:has3rdDimension rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasArea
+:hasArea rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasCondition
+:hasCondition rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasCoordinate
+:hasCoordinate rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasDepth
+:hasDepth rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasDirection
+:hasDirection rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasDistance
+:hasDistance rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasDistanceFrom
+:hasDistanceFrom rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasDistanceTo
+:hasDistanceTo rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasFunction
+:hasFunction rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasName
+:hasName rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasOrientation
+:hasOrientation rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasRating
+:hasRating rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#hasWidth
+:hasWidth rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Bark_(Biofilter)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Bark_(Biofilter)> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf :Filter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Borehole_(Exploration/monitoring)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Borehole_(Exploration/monitoring)> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf :Well .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Combination_Air_Release_&_Vacuum_Breaker
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Combination_Air_Release_&_Vacuum_Breaker> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Computer/Server
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Computer/Server> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf :Control_System .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Conduits_&_Pipes
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Conduits_&_Pipes> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Control_Station_(Local)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Control_Station_(Local)> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Cyclone_Unit_/_Hydrocyclone_Separator
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Cyclone_Unit_/_Hydrocyclone_Separator> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf :Control_System .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Door/Window
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Door/Window> rdf:type owl:Class ;
+                                                                          rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Door/Window_Switches
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Door/Window_Switches> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Driveshaft_(Extended)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Driveshaft_(Extended)> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Event_/_Data_Recorder
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Event_/_Data_Recorder> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Fire_hose_reel_+_Fire_Hydrant
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Fire_hose_reel_+_Fire_Hydrant> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf :Fire_Fighting .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Heating,_Ventilation_and_Air_Conditioning
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Heating,_Ventilation_and_Air_Conditioning> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#I/O_module
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#I/O_module> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf :Control_Components .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Impellor_(centrifugal)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Impellor_(centrifugal)> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf :Blower .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Joint_(Isolated)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Joint_(Isolated)> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf :Mechanical_Fittings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Joint_(Saddle)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Joint_(Saddle)> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Mechanical_Fittings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Joint_(bolted)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Joint_(bolted)> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Mechanical_Fittings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Joint_(flexible)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Joint_(flexible)> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf :Mechanical_Fittings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Mixed_/_Radial_flow
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Mixed_/_Radial_flow> rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf :Pump .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Neutral_/_Earth_Resistor
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Neutral_/_Earth_Resistor> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Non_Return_/_Reflux_/_Check
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Non_Return_/_Reflux_/_Check> rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Overhead_Crane_or__'A'_Frame
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Overhead_Crane_or__'A'_Frame> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf :Lifting_Equipment .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Pad/Plinth
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Pad/Plinth> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf :Support .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Power_Supply_Unit,_ELV/LV
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Power_Supply_Unit,_ELV/LV> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Programmable_Logic_Controller_/_RTU
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Programmable_Logic_Controller_/_RTU> rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf :Control_System .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Reciprocating_/_Piston
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Reciprocating_/_Piston> rdf:type owl:Class ;
+                                                                                     rdfs:subClassOf :Pump .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Relay_/_Electrical_Protection
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Relay_/_Electrical_Protection> rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Resin_(bead_type)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Resin_(bead_type)> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf :Filter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Roads_&_Bridges
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Roads_&_Bridges> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Running_Beam_&_Hoist
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Running_Beam_&_Hoist> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf :Lifting_Equipment .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Solenoid_(position)_valve
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Solenoid_(position)_valve> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Sprinkler_head_/_System
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Sprinkler_head_/_System> rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf :Fire_Fighting .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Temperature_Element/probe
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Temperature_Element/probe> rdf:type owl:Class ;
+                                                                                        rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Transformer_rectifier_/_Rectifier
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Transformer_rectifier_/_Rectifier> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf :Cathodic_Protection .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Trap_(Condensate)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Trap_(Condensate)> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Ultraviolet_(UV)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Ultraviolet_(UV)> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Universal/multi-plane
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Universal/multi-plane> rdf:type owl:Class ;
+                                                                                    rdfs:subClassOf :Bellows .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#User_Software_System_(app)
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#User_Software_System_(app)> rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf :Software .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Weight_Element/load_Cell
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Weight_Element/load_Cell> rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Wireless_Access_Point_/_Bridge
+<http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Wireless_Access_Point_/_Bridge> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Abutment
+:Abutment rdf:type owl:Class ;
+          rdfs:subClassOf :Retaining_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Acoustic_Enclosure
+:Acoustic_Enclosure rdf:type owl:Class ;
+                    rdfs:subClassOf :Silencer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Activated_Carbon
+:Activated_Carbon rdf:type owl:Class ;
+                  rdfs:subClassOf :Filter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Actuator
+:Actuator rdf:type owl:Class ;
+          rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Aerator
+:Aerator rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Aftercooler
+:Aftercooler rdf:type owl:Class ;
+             rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Agitation
+:Agitation rdf:type owl:Class ;
+           rdfs:subClassOf :Mixer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Air
+:Air rdf:type owl:Class ;
+     rdfs:subClassOf :Actuator ,
+                     :Compressor ,
+                     :Diffuser .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Air_Conditioning_Unit
+:Air_Conditioning_Unit rdf:type owl:Class ;
+                       rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Air_Convection
+:Air_Convection rdf:type owl:Class ;
+                rdfs:subClassOf :Heater .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Air_Lube_Unit
+:Air_Lube_Unit rdf:type owl:Class ;
+               rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Air_Release
+:Air_Release rdf:type owl:Class ;
+             rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Alarm
+:Alarm rdf:type owl:Class ;
+       rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Alternator
+:Alternator rdf:type owl:Class ;
+            rdfs:subClassOf :Electrical_rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Altitude
+:Altitude rdf:type owl:Class ;
+          rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Analyser_Element
+:Analyser_Element rdf:type owl:Class ;
+                  rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Analyser_Indicating_Transmitter
+:Analyser_Indicating_Transmitter rdf:type owl:Class ;
+                                 rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Anchor_block
+:Anchor_block rdf:type owl:Class ;
+              rdfs:subClassOf :Support .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Angular
+:Angular rdf:type owl:Class ;
+         rdfs:subClassOf :Bellows .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Anode_Bed
+:Anode_Bed rdf:type owl:Class ;
+           rdfs:subClassOf :Cathodic_Protection .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Antenna
+:Antenna rdf:type owl:Class ;
+         rdfs:subClassOf :Control_System ,
+                         :Pole .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Antenna_Feeder_Cable
+:Antenna_Feeder_Cable rdf:type owl:Class ;
+                      rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Aqueduct
+:Aqueduct rdf:type owl:Class ;
+          rdfs:subClassOf :Containment_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Attenuator
+:Attenuator rdf:type owl:Class ;
+            rdfs:subClassOf :Silencer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Auto_Transfer_Switch
+:Auto_Transfer_Switch rdf:type owl:Class ;
+                      rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Autoflush
+:Autoflush rdf:type owl:Class ;
+           rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Automatic_Voltage_Regulator
+:Automatic_Voltage_Regulator rdf:type owl:Class ;
+                             rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Axial
+:Axial rdf:type owl:Class ;
+       rdfs:subClassOf :Fan ,
+                       :Pump .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Backflow_Monitoring
+:Backflow_Monitoring rdf:type owl:Class ;
+                     rdfs:subClassOf :Water_Meter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Backflow_Preventer_Double
+:Backflow_Preventer_Double rdf:type owl:Class ;
+                           rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Backflow_Preventer_Dual
+:Backflow_Preventer_Dual rdf:type owl:Class ;
+                         rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Backflow_Preventer_RPZ
+:Backflow_Preventer_RPZ rdf:type owl:Class ;
+                        rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Backflow_Vacuum_Breaker
+:Backflow_Vacuum_Breaker rdf:type owl:Class ;
+                         rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Baffle
+:Baffle rdf:type owl:Class ;
+        rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ball
+:Ball rdf:type owl:Class ;
+      rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ballast
+:Ballast rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Ultraviolet_(UV)> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Barrier
+:Barrier rdf:type owl:Class ;
+         rdfs:subClassOf :Fence .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/BaseCoil
+:BaseCoil rdf:type owl:Class ;
+          rdfs:subClassOf :Antenna .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Battery
+:Battery rdf:type owl:Class ;
+         rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Battery_Charger
+:Battery_Charger rdf:type owl:Class ;
+                 rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Beacon
+:Beacon rdf:type owl:Class ;
+        rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Bellows
+:Bellows rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Belt
+:Belt rdf:type owl:Class ;
+      rdfs:subClassOf :Conveyor .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Biplanar
+:Biplanar rdf:type owl:Class ;
+          rdfs:subClassOf :Bellows .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Blower
+:Blower rdf:type owl:Class ;
+        rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Bollards
+:Bollards rdf:type owl:Class ;
+          rdfs:subClassOf :Fence .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Breathing_Apparatus
+:Breathing_Apparatus rdf:type owl:Class ;
+                     rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Bridge
+:Bridge rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Roads_&_Bridges> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Buildings
+:Buildings rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Bulk_Supply
+:Bulk_Supply rdf:type owl:Class ;
+             rdfs:subClassOf :Water_Meter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Bund
+:Bund rdf:type owl:Class ;
+      rdfs:subClassOf :Containment_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Butterfly
+:Butterfly rdf:type owl:Class ;
+           rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/CCTV_Tower
+:CCTV_Tower rdf:type owl:Class ;
+            rdfs:subClassOf :Pole .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Cabinet
+:Cabinet rdf:type owl:Class ;
+         rdfs:subClassOf :Furnishing .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Cable
+:Cable rdf:type owl:Class ;
+       rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Cable_Pit
+:Cable_Pit rdf:type owl:Class ;
+           rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Card_Reader
+:Card_Reader rdf:type owl:Class ;
+             rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Cathodic_Protection
+:Cathodic_Protection rdf:type owl:Class ;
+                     rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ceiling_Hook
+:Ceiling_Hook rdf:type owl:Class ;
+              rdfs:subClassOf :Lifting_Equipment .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Centrifugal
+:Centrifugal rdf:type owl:Class ;
+             rdfs:subClassOf :Fan .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Centrifuge
+:Centrifuge rdf:type owl:Class ;
+            rdfs:subClassOf :Dewatering_Unit .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Chair
+:Chair rdf:type owl:Class ;
+       rdfs:subClassOf :Furnishing .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Chamber
+:Chamber rdf:type owl:Class ;
+         rdfs:subClassOf :Baffle .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Channel
+:Channel rdf:type owl:Class ;
+         rdfs:subClassOf :Containment_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Chiller
+:Chiller rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Heating,_Ventilation_and_Air_Conditioning> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Chlorinator
+:Chlorinator rdf:type owl:Class ;
+             rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Chlorine
+:Chlorine rdf:type owl:Class ;
+          rdfs:subClassOf :Analyser_Indicating_Transmitter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Circuit_Breaker
+:Circuit_Breaker rdf:type owl:Class ;
+                 rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Civil
+:Civil rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Collinear
+:Collinear rdf:type owl:Class ;
+           rdfs:subClassOf :Antenna .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Combustion_Engine
+:Combustion_Engine rdf:type owl:Class ;
+                   rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Compressor
+:Compressor rdf:type owl:Class ;
+            rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Concrete
+:Concrete rdf:type owl:Class ;
+          rdfs:subClassOf :Road .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Conductive_Float_Switch
+:Conductive_Float_Switch rdf:type owl:Class ;
+                         rdfs:subClassOf :Level_Element .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Conductivity_Indicating_Transmitter
+:Conductivity_Indicating_Transmitter rdf:type owl:Class ;
+                                     rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Conduit
+:Conduit rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Conduits_&_Pipes> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Configuration_Software
+:Configuration_Software rdf:type owl:Class ;
+                        rdfs:subClassOf :Software .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Consumer_Supply
+:Consumer_Supply rdf:type owl:Class ;
+                 rdfs:subClassOf :Water_Meter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Container
+:Container rdf:type owl:Class ;
+           rdfs:subClassOf :Storage_Unit .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Containment_Boom
+:Containment_Boom rdf:type owl:Class ;
+                  rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Containment_Structure
+:Containment_Structure rdf:type owl:Class ;
+                       rdfs:subClassOf :Containment_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Control_Components
+:Control_Components rdf:type owl:Class ;
+                    rdfs:subClassOf :Control_System .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Control_Panel
+:Control_Panel rdf:type owl:Class ;
+               rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Control_System
+:Control_System rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Controller
+:Controller rdf:type owl:Class ;
+            rdfs:subClassOf :Control_Components .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Conveyor
+:Conveyor rdf:type owl:Class ;
+          rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Corrosion_Rate_Coupon
+:Corrosion_Rate_Coupon rdf:type owl:Class ;
+                       rdfs:subClassOf :Cathodic_Protection .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Counter_Balance_Weight
+:Counter_Balance_Weight rdf:type owl:Class ;
+                        rdfs:subClassOf :Damper .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Culvert
+:Culvert rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Conduits_&_Pipes> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Current
+:Current rdf:type owl:Class ;
+         rdfs:subClassOf :Transformer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Curtain
+:Curtain rdf:type owl:Class ;
+         rdfs:subClassOf :Baffle .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Dam_Wall
+:Dam_Wall rdf:type owl:Class ;
+          rdfs:subClassOf :Retaining_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Damp
+:Damp rdf:type owl:Class ;
+      rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Heating,_Ventilation_and_Air_Conditioning> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Damper
+:Damper rdf:type owl:Class ;
+        rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Density_Indicating_Transmitter
+:Density_Indicating_Transmitter rdf:type owl:Class ;
+                                rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Desiccant
+:Desiccant rdf:type owl:Class ;
+           rdfs:subClassOf :Dryer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Desk
+:Desk rdf:type owl:Class ;
+      rdfs:subClassOf :Furnishing .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Detention
+:Detention rdf:type owl:Class ;
+           rdfs:subClassOf :Abutment .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Deviation_Element
+:Deviation_Element rdf:type owl:Class ;
+                   rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Dewatering_Unit
+:Dewatering_Unit rdf:type owl:Class ;
+                 rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Diaphragm
+:Diaphragm rdf:type owl:Class ;
+           rdfs:subClassOf :Pump ,
+                           :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Differential_Pressure
+:Differential_Pressure rdf:type owl:Class ;
+                       rdfs:subClassOf :Flow_Element ,
+                                       :Level_Element .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Diffuser
+:Diffuser rdf:type owl:Class ;
+          rdfs:subClassOf :Mechanical_Static ,
+                          :Silencer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Dipole
+:Dipole rdf:type owl:Class ;
+        rdfs:subClassOf :Antenna .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Direct_on-line
+:Direct_on-line rdf:type owl:Class ;
+                rdfs:subClassOf :Starter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Dishwasher
+:Dishwasher rdf:type owl:Class ;
+            rdfs:subClassOf :Furnishing .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Dose_Timer
+:Dose_Timer rdf:type owl:Class ;
+            rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Drain
+:Drain rdf:type owl:Class ;
+       rdfs:subClassOf :Civil .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Dry
+:Dry rdf:type owl:Class ;
+     rdfs:subClassOf :Gear_Plate .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Dry_Transducer
+:Dry_Transducer rdf:type owl:Class ;
+                rdfs:subClassOf :Water_Monitoring .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Dry_Well
+:Dry_Well rdf:type owl:Class ;
+          rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Dryer
+:Dryer rdf:type owl:Class ;
+       rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ducting
+:Ducting rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Heating,_Ventilation_and_Air_Conditioning> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Earth_Coupler
+:Earth_Coupler rdf:type owl:Class ;
+               rdfs:subClassOf :Cathodic_Protection .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Earth_Grid
+:Earth_Grid rdf:type owl:Class ;
+            rdfs:subClassOf :Earthing .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Earthing
+:Earthing rdf:type owl:Class ;
+          rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Eductor
+:Eductor rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ejector
+:Ejector rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Electric
+:Electric rdf:type owl:Class ;
+          rdfs:subClassOf :Actuator .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Electrical
+:Electrical rdf:type owl:Class ;
+            rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Electrical_Distribution_Board
+:Electrical_Distribution_Board rdf:type owl:Class ;
+                               rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Electrical_Static
+:Electrical_Static rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Electrical_Subject_to_Testing
+:Electrical_Subject_to_Testing rdf:type owl:Class ;
+                               rdfs:subClassOf :Tool .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Electrical_rotating
+:Electrical_rotating rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Electrode
+:Electrode rdf:type owl:Class ;
+           rdfs:subClassOf :Earthing .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Electronic_Storage
+:Electronic_Storage rdf:type owl:Class ;
+                    rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Computer/Server> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Emergency_Lighting
+:Emergency_Lighting rdf:type owl:Class ;
+                    rdfs:subClassOf :Lighting .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Emergency_Shower
+:Emergency_Shower rdf:type owl:Class ;
+                  rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/End_Cap
+:End_Cap rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Fittings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Extra_Low_Voltage
+:Extra_Low_Voltage rdf:type owl:Class ;
+                   rdfs:subClassOf :Cable .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Eyewash
+:Eyewash rdf:type owl:Class ;
+         rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fall_Prevention_Grille
+:Fall_Prevention_Grille rdf:type owl:Class ;
+                        rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fall_Prevention_Harness
+:Fall_Prevention_Harness rdf:type owl:Class ;
+                         rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fall_Prevention_Net
+:Fall_Prevention_Net rdf:type owl:Class ;
+                     rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fan
+:Fan rdf:type owl:Class ;
+     rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fan_Heater
+:Fan_Heater rdf:type owl:Class ;
+            rdfs:subClassOf :Heater .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fence
+:Fence rdf:type owl:Class ;
+       rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ferrule
+:Ferrule rdf:type owl:Class ;
+         rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fibre_Optic
+:Fibre_Optic rdf:type owl:Class ;
+             rdfs:subClassOf :Cable .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Field_Cabinet
+:Field_Cabinet rdf:type owl:Class ;
+               rdfs:subClassOf :Control_System .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Filter
+:Filter rdf:type owl:Class ;
+        rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fire_Alarm_Call_Unit
+:Fire_Alarm_Call_Unit rdf:type owl:Class ;
+                      rdfs:subClassOf :Fire_Fighting .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fire_Extinguisher
+:Fire_Extinguisher rdf:type owl:Class ;
+                   rdfs:subClassOf :Fire_Fighting .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fire_Fighting
+:Fire_Fighting rdf:type owl:Class ;
+               rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fire_Supply
+:Fire_Supply rdf:type owl:Class ;
+             rdfs:subClassOf :Water_Meter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Firewall
+:Firewall rdf:type owl:Class ;
+          rdfs:subClassOf :Wall .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Firewall_Unit
+:Firewall_Unit rdf:type owl:Class ;
+               rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/First_Aid_Equipment
+:First_Aid_Equipment rdf:type owl:Class ;
+                     rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fixed_Cone
+:Fixed_Cone rdf:type owl:Class ;
+            rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Flame_Arrester
+:Flame_Arrester rdf:type owl:Class ;
+                rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Float
+:Float rdf:type owl:Class ;
+       rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Float_and_counter-weight_Encoder
+:Float_and_counter-weight_Encoder rdf:type owl:Class ;
+                                  rdfs:subClassOf :Water_Monitoring .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Flow_Element
+:Flow_Element rdf:type owl:Class ;
+              rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Flow_Indicating_Transmitter
+:Flow_Indicating_Transmitter rdf:type owl:Class ;
+                             rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Flow_Switch
+:Flow_Switch rdf:type owl:Class ;
+             rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Flow_Transmitter
+:Flow_Transmitter rdf:type owl:Class ;
+                  rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Foot
+:Foot rdf:type owl:Class ;
+      rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Footpath
+:Footpath rdf:type owl:Class ;
+          rdfs:subClassOf :Civil .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fridge
+:Fridge rdf:type owl:Class ;
+        rdfs:subClassOf :Furnishing .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Fuel_Burner
+:Fuel_Burner rdf:type owl:Class ;
+             rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Furnishing
+:Furnishing rdf:type owl:Class ;
+            rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gas
+:Gas rdf:type owl:Class ;
+     rdfs:subClassOf :Compressor ,
+                     :Ring_Main_Unit ,
+                     :Turbine .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gas_Alarm
+:Gas_Alarm rdf:type owl:Class ;
+           rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gas_Flare
+:Gas_Flare rdf:type owl:Class ;
+           rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gas_Suppression
+:Gas_Suppression rdf:type owl:Class ;
+                 rdfs:subClassOf :Fire_Fighting .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gate
+:Gate rdf:type owl:Class ;
+      rdfs:subClassOf :Site_Services ,
+                      :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gear
+:Gear rdf:type owl:Class ;
+      rdfs:subClassOf :Pump .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gear_Plate
+:Gear_Plate rdf:type owl:Class ;
+            rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gearbox
+:Gearbox rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/General
+:General rdf:type owl:Class ;
+         rdfs:subClassOf :Sign .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/General_lightning_and_small_power
+:General_lightning_and_small_power rdf:type owl:Class ;
+                                   rdfs:subClassOf :Lighting .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Generator
+:Generator rdf:type owl:Class ;
+           rdfs:subClassOf :Electrical_rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Generator_Connection_Box
+:Generator_Connection_Box rdf:type owl:Class ;
+                          rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Globe_valve
+:Globe_valve rdf:type owl:Class ;
+             rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gravel
+:Gravel rdf:type owl:Class ;
+        rdfs:subClassOf :Filter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Gravity_Belt_Thickener
+:Gravity_Belt_Thickener rdf:type owl:Class ;
+                        rdfs:subClassOf :Dewatering_Unit .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Grit_Classifier_Unit
+:Grit_Classifier_Unit rdf:type owl:Class ;
+                      rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Grouted
+:Grouted rdf:type owl:Class ;
+         rdfs:subClassOf :RipRap .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Guided_Radar
+:Guided_Radar rdf:type owl:Class ;
+              rdfs:subClassOf :Level_Element .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Handrail
+:Handrail rdf:type owl:Class ;
+          rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hard_Standing
+:Hard_Standing rdf:type owl:Class ;
+               rdfs:subClassOf :Civil .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Harmonic_Filter
+:Harmonic_Filter rdf:type owl:Class ;
+                 rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hatch_Cover
+:Hatch_Cover rdf:type owl:Class ;
+             rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Heat_Exchanger
+:Heat_Exchanger rdf:type owl:Class ;
+                rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Heater
+:Heater rdf:type owl:Class ;
+        rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/High_Voltage
+:High_Voltage rdf:type owl:Class ;
+              rdfs:subClassOf :Cable ,
+                              :Circuit_Breaker ,
+                              :Switchboard .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hinged
+:Hinged rdf:type owl:Class ;
+        rdfs:subClassOf :Bellows .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hopper
+:Hopper rdf:type owl:Class ;
+        rdfs:subClassOf :Storage_Unit .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hose_Reel
+:Hose_Reel rdf:type owl:Class ;
+           rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Human_machine_interface
+:Human_machine_interface rdf:type owl:Class ;
+                         rdfs:subClassOf :Control_Components .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Humidifier
+:Humidifier rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Heating,_Ventilation_and_Air_Conditioning> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hydrant
+:Hydrant rdf:type owl:Class ;
+         rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hydraulic_Piston
+:Hydraulic_Piston rdf:type owl:Class ;
+                  rdfs:subClassOf :Damper .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hydraulic_Power_Pack
+:Hydraulic_Power_Pack rdf:type owl:Class ;
+                      rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hydrogen_Sulphide
+:Hydrogen_Sulphide rdf:type owl:Class ;
+                   rdfs:subClassOf :Analyser_Indicating_Transmitter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Hypochlorite_Generator_System
+:Hypochlorite_Generator_System rdf:type owl:Class ;
+                               rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Immersion
+:Immersion rdf:type owl:Class ;
+           rdfs:subClassOf :Heater .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Industrial_Boiler
+:Industrial_Boiler rdf:type owl:Class ;
+                   rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Injector
+:Injector rdf:type owl:Class ;
+          rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Inspection_Point
+:Inspection_Point rdf:type owl:Class ;
+                  rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Instrument
+:Instrument rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Instrument_Subject_to_Calibration
+:Instrument_Subject_to_Calibration rdf:type owl:Class ;
+                                   rdfs:subClassOf :Tool .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Instrument_Switch
+:Instrument_Switch rdf:type owl:Class ;
+                   rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Inverter
+:Inverter rdf:type owl:Class ;
+          rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Isolator
+:Isolator rdf:type owl:Class ;
+          rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Junction_Box
+:Junction_Box rdf:type owl:Class ;
+              rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Junction_Pit
+:Junction_Pit rdf:type owl:Class ;
+              rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Keyboard_Video_Monitor
+:Keyboard_Video_Monitor rdf:type owl:Class ;
+                        rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Computer/Server> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Knife_Gate
+:Knife_Gate rdf:type owl:Class ;
+            rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ladder
+:Ladder rdf:type owl:Class ;
+        rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Lamp_Modele
+:Lamp_Modele rdf:type owl:Class ;
+             rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Ultraviolet_(UV)> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Lateral_Expansion
+:Lateral_Expansion rdf:type owl:Class ;
+                   rdfs:subClassOf :Bellows .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Level_Element
+:Level_Element rdf:type owl:Class ;
+               rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Level_Indicating_Transmitter
+:Level_Indicating_Transmitter rdf:type owl:Class ;
+                              rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Level_Interface_Indicating_Transmitter
+:Level_Interface_Indicating_Transmitter rdf:type owl:Class ;
+                                        rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Level_Switch
+:Level_Switch rdf:type owl:Class ;
+              rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Lifebuoy
+:Lifebuoy rdf:type owl:Class ;
+          rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Lift_Gate
+:Lift_Gate rdf:type owl:Class ;
+           rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Lifting_Equipment
+:Lifting_Equipment rdf:type owl:Class ;
+                   rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Light
+:Light rdf:type owl:Class ;
+       rdfs:subClassOf :Pole .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Lighting
+:Lighting rdf:type owl:Class ;
+          rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Lobe
+:Lobe rdf:type owl:Class ;
+      rdfs:subClassOf :Blower .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Location
+:Location rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Locker
+:Locker rdf:type owl:Class ;
+        rdfs:subClassOf :Furnishing .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Lockout_Station
+:Lockout_Station rdf:type owl:Class ;
+                 rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Louvre
+:Louvre rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Heating,_Ventilation_and_Air_Conditioning> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/LowProfile
+:LowProfile rdf:type owl:Class ;
+            rdfs:subClassOf :Antenna .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Low_Voltage
+:Low_Voltage rdf:type owl:Class ;
+             rdfs:subClassOf :Cable ,
+                             :Circuit_Breaker ,
+                             :Switchboard .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Magnetic
+:Magnetic rdf:type owl:Class ;
+          rdfs:subClassOf :Blower ,
+                          :Flow_Element .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Manhole
+:Manhole rdf:type owl:Class ;
+         rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Marker
+:Marker rdf:type owl:Class ;
+        rdfs:subClassOf :Sign .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Mechanical
+:Mechanical rdf:type owl:Class ;
+            rdfs:subClassOf :Auto_Transfer_Switch ,
+                            :Flow_Element ,
+                            :Mixer ,
+                            :Weather_Station .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Mechanical_Engine_Powered
+:Mechanical_Engine_Powered rdf:type owl:Class ;
+                           rdfs:subClassOf :Tool .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Mechanical_Fittings
+:Mechanical_Fittings rdf:type owl:Class ;
+                     rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Mechanical_Handtool
+:Mechanical_Handtool rdf:type owl:Class ;
+                     rdfs:subClassOf :Tool .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Mechanical_Rotating
+:Mechanical_Rotating rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Mechanical_Static
+:Mechanical_Static rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Media_Convertor
+:Media_Convertor rdf:type owl:Class ;
+                 rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Membrane
+:Membrane rdf:type owl:Class ;
+          rdfs:subClassOf :Filter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Metal
+:Metal rdf:type owl:Class ;
+       rdfs:subClassOf :Road .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Methane
+:Methane rdf:type owl:Class ;
+         rdfs:subClassOf :Analyser_Indicating_Transmitter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Microwave
+:Microwave rdf:type owl:Class ;
+           rdfs:subClassOf :Furnishing ,
+                           :Level_Element .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Microwave_Unit
+:Microwave_Unit rdf:type owl:Class ;
+                rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Midge_Screen
+:Midge_Screen rdf:type owl:Class ;
+              rdfs:subClassOf :Control_System .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Mixer
+:Mixer rdf:type owl:Class ;
+       rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Mixer_Static
+:Mixer_Static rdf:type owl:Class ;
+              rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Modem
+:Modem rdf:type owl:Class ;
+       rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Moisture_Indicator
+:Moisture_Indicator rdf:type owl:Class ;
+                    rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Monitor
+:Monitor rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Computer/Server> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Motor
+:Motor rdf:type owl:Class ;
+       rdfs:subClassOf :Electrical_rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Muffler
+:Muffler rdf:type owl:Class ;
+         rdfs:subClassOf :Silencer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Multiplexer
+:Multiplexer rdf:type owl:Class ;
+             rdfs:subClassOf :Control_Components .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Needle
+:Needle rdf:type owl:Class ;
+        rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Network_Switch
+:Network_Switch rdf:type owl:Class ;
+                rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Non-Pressure_Rated
+:Non-Pressure_Rated rdf:type owl:Class ;
+                    rdfs:subClassOf :Pipe .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Non-contact
+:Non-contact rdf:type owl:Class ;
+             rdfs:subClassOf :Weather_Station .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Not_Pressurised
+:Not_Pressurised rdf:type owl:Class ;
+                 rdfs:subClassOf :Tank .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Not_reinforced
+:Not_reinforced rdf:type owl:Class ;
+                rdfs:subClassOf :Buildings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Nozzle
+:Nozzle rdf:type owl:Class ;
+        rdfs:subClassOf :Mechanical_Fittings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Oil
+:Oil rdf:type owl:Class ;
+     rdfs:subClassOf :Ring_Main_Unit .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Operating_System
+:Operating_System rdf:type owl:Class ;
+                  rdfs:subClassOf :Software .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Orifice_Plate
+:Orifice_Plate rdf:type owl:Class ;
+               rdfs:subClassOf :Mechanical_Fittings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Oven
+:Oven rdf:type owl:Class ;
+      rdfs:subClassOf :Furnishing .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Overhead_Power_Line
+:Overhead_Power_Line rdf:type owl:Class ;
+                     rdfs:subClassOf :Cable .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ownership
+:Ownership rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ozone_Generator
+:Ozone_Generator rdf:type owl:Class ;
+                 rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Paddle_Switch
+:Paddle_Switch rdf:type owl:Class ;
+               rdfs:subClassOf :Level_Element .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Panel_and_post
+:Panel_and_post rdf:type owl:Class ;
+                rdfs:subClassOf :Fence .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Paper
+:Paper rdf:type owl:Class ;
+       rdfs:subClassOf :Filter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Patch_Panel
+:Patch_Panel rdf:type owl:Class ;
+             rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pedestrian
+:Pedestrian rdf:type owl:Class ;
+            rdfs:subClassOf :Bridge .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Penstock
+:Penstock rdf:type owl:Class ;
+          rdfs:subClassOf :Chamber ,
+                          :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Peristaltic
+:Peristaltic rdf:type owl:Class ;
+             rdfs:subClassOf :Pump .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Personnel_Winch
+:Personnel_Winch rdf:type owl:Class ;
+                 rdfs:subClassOf :Safety .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Phasing
+:Phasing rdf:type owl:Class ;
+         rdfs:subClassOf :Antenna .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pier
+:Pier rdf:type owl:Class ;
+      rdfs:subClassOf :Support .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Piezometer
+:Piezometer rdf:type owl:Class ;
+            rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pilot
+:Pilot rdf:type owl:Class ;
+       rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pinch
+:Pinch rdf:type owl:Class ;
+       rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pipe
+:Pipe rdf:type owl:Class ;
+      rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Conduits_&_Pipes> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pipe_Support
+:Pipe_Support rdf:type owl:Class ;
+              rdfs:subClassOf :Bridge .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Plate
+:Plate rdf:type owl:Class ;
+       rdfs:subClassOf :Baffle .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Platform
+:Platform rdf:type owl:Class ;
+          rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Plug
+:Plug rdf:type owl:Class ;
+      rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pole
+:Pole rdf:type owl:Class ;
+      rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Polymer_Batch_Unit
+:Polymer_Batch_Unit rdf:type owl:Class ;
+                    rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pond
+:Pond rdf:type owl:Class ;
+      rdfs:subClassOf :Containment_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pontoon
+:Pontoon rdf:type owl:Class ;
+         rdfs:subClassOf :Support .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Portable
+:Portable rdf:type owl:Class ;
+          rdfs:subClassOf :Buildings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Position_Indicating_Controller
+:Position_Indicating_Controller rdf:type owl:Class ;
+                                rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Position_Switch
+:Position_Switch rdf:type owl:Class ;
+                 rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Power
+:Power rdf:type owl:Class ;
+       rdfs:subClassOf :Pole ,
+                       :Transformer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Power_Factor_Correction_Equipment
+:Power_Factor_Correction_Equipment rdf:type owl:Class ;
+                                   rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Power_Indicating_Transmitter
+:Power_Indicating_Transmitter rdf:type owl:Class ;
+                              rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Power_Supply
+:Power_Supply rdf:type owl:Class ;
+              rdfs:subClassOf :Control_System .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Press
+:Press rdf:type owl:Class ;
+       rdfs:subClassOf :Dewatering_Unit .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pressure_Indicating_Transmitter
+:Pressure_Indicating_Transmitter rdf:type owl:Class ;
+                                 rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pressure_Indicator
+:Pressure_Indicator rdf:type owl:Class ;
+                    rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pressure_Rated
+:Pressure_Rated rdf:type owl:Class ;
+                rdfs:subClassOf :Pipe .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pressure_Switch
+:Pressure_Switch rdf:type owl:Class ;
+                 rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pressure_Transmitter
+:Pressure_Transmitter rdf:type owl:Class ;
+                      rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pressurised
+:Pressurised rdf:type owl:Class ;
+             rdfs:subClassOf :Tank .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pressurised_Boundary_Kit
+:Pressurised_Boundary_Kit rdf:type owl:Class ;
+                          rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Printer
+:Printer rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Computer/Server> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Progressive_Cavity
+:Progressive_Cavity rdf:type owl:Class ;
+                    rdfs:subClassOf :Pump .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Protocol_Convertor
+:Protocol_Convertor rdf:type owl:Class ;
+                    rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pump
+:Pump rdf:type owl:Class ;
+      rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pump_Pit
+:Pump_Pit rdf:type owl:Class ;
+          rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Pump_Station
+:Pump_Station rdf:type owl:Class ;
+              rdfs:subClassOf :Location .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Radar
+:Radar rdf:type owl:Class ;
+       rdfs:subClassOf :Water_Monitoring .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Radio_unit
+:Radio_unit rdf:type owl:Class ;
+            rdfs:subClassOf :Control_System .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Railway
+:Railway rdf:type owl:Class ;
+         rdfs:subClassOf :Bridge .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Rake
+:Rake rdf:type owl:Class ;
+      rdfs:subClassOf :Scraper .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Rectifier
+:Rectifier rdf:type owl:Class ;
+           rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Reference_Electrode
+:Reference_Electrode rdf:type owl:Class ;
+                     rdfs:subClassOf :Cathodic_Protection .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Refrigerant
+:Refrigerant rdf:type owl:Class ;
+             rdfs:subClassOf :Dryer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Regenerative
+:Regenerative rdf:type owl:Class ;
+              rdfs:subClassOf :Blower ,
+                              :Pump .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Regulator
+:Regulator rdf:type owl:Class ;
+           rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Reinforced
+:Reinforced rdf:type owl:Class ;
+            rdfs:subClassOf :Buildings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Reservoir
+:Reservoir rdf:type owl:Class ;
+           rdfs:subClassOf :Tank .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Retaining_Structure
+:Retaining_Structure rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Retaining_Wall
+:Retaining_Wall rdf:type owl:Class ;
+                rdfs:subClassOf :Wall .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Retention
+:Retention rdf:type owl:Class ;
+           rdfs:subClassOf :Abutment .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ring_Main_Unit
+:Ring_Main_Unit rdf:type owl:Class ;
+                rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/RipRap
+:RipRap rdf:type owl:Class ;
+        rdfs:subClassOf :Retaining_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Road
+:Road rdf:type owl:Class ;
+      rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Roads_&_Bridges> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Roller
+:Roller rdf:type owl:Class ;
+        rdfs:subClassOf :Conveyor ,
+                        :Support .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Rotaing_Mesh_Screen
+:Rotaing_Mesh_Screen rdf:type owl:Class ;
+                     rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Rotary_Lobe
+:Rotary_Lobe rdf:type owl:Class ;
+             rdfs:subClassOf :Pump .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Router
+:Router rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Rubber_Blade
+:Rubber_Blade rdf:type owl:Class ;
+              rdfs:subClassOf :Scraper .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Rupture_Disc
+:Rupture_Disc rdf:type owl:Class ;
+              rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Safety
+:Safety rdf:type owl:Class ;
+        rdfs:subClassOf :Sign ,
+                        :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Sampler
+:Sampler rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Sand
+:Sand rdf:type owl:Class ;
+      rdfs:subClassOf :Filter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Scraper
+:Scraper rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Screen_Static
+:Screen_Static rdf:type owl:Class ;
+               rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Screw
+:Screw rdf:type owl:Class ;
+       rdfs:subClassOf :Conveyor .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Sealed
+:Sealed rdf:type owl:Class ;
+        rdfs:subClassOf :Road .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Security
+:Security rdf:type owl:Class ;
+          rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Sediment
+:Sediment rdf:type owl:Class ;
+          rdfs:subClassOf :Abutment .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Server
+:Server rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Computer/Server> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Side_Entry_Pit
+:Side_Entry_Pit rdf:type owl:Class ;
+                rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Sign
+:Sign rdf:type owl:Class ;
+      rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Silencer
+:Silencer rdf:type owl:Class ;
+          rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Single_Plane
+:Single_Plane rdf:type owl:Class ;
+              rdfs:subClassOf :Bellows .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Siphon
+:Siphon rdf:type owl:Class ;
+        rdfs:subClassOf :Pipe .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Site_Services
+:Site_Services rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Siteworks
+:Siteworks rdf:type owl:Class ;
+           rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Skimmer
+:Skimmer rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Skip
+:Skip rdf:type owl:Class ;
+      rdfs:subClassOf :Storage_Unit .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Slide_gate
+:Slide_gate rdf:type owl:Class ;
+            rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Sludge_Cone
+:Sludge_Cone rdf:type owl:Class ;
+             rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Sluice
+:Sluice rdf:type owl:Class ;
+        rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Smart_Reader_Device
+:Smart_Reader_Device rdf:type owl:Class ;
+                     rdfs:subClassOf :Water_Meter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Soft_Starter
+:Soft_Starter rdf:type owl:Class ;
+              rdfs:subClassOf :Starter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Software
+:Software rdf:type owl:Class ;
+          rdfs:subClassOf :Control_System .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Solar_Cell
+:Solar_Cell rdf:type owl:Class ;
+            rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Solenoid
+:Solenoid rdf:type owl:Class ;
+          rdfs:subClassOf :Actuator .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Spillway
+:Spillway rdf:type owl:Class ;
+          rdfs:subClassOf :Civil .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Spring_Assisted
+:Spring_Assisted rdf:type owl:Class ;
+                 rdfs:subClassOf :Damper .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Stairs
+:Stairs rdf:type owl:Class ;
+        rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Standpipe
+:Standpipe rdf:type owl:Class ;
+           rdfs:subClassOf :Water_Meter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Starter
+:Starter rdf:type owl:Class ;
+         rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Static
+:Static rdf:type owl:Class ;
+        rdfs:subClassOf :Auto_Transfer_Switch ,
+                        :Mixer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Stilling_Well
+:Stilling_Well rdf:type owl:Class ;
+               rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Stop_log
+:Stop_log rdf:type owl:Class ;
+          rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Stopbank
+:Stopbank rdf:type owl:Class ;
+          rdfs:subClassOf :Wall .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Storage_Unit
+:Storage_Unit rdf:type owl:Class ;
+              rdfs:subClassOf :Containment_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Strainer
+:Strainer rdf:type owl:Class ;
+          rdfs:subClassOf :Screen_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Submersible
+:Submersible rdf:type owl:Class ;
+             rdfs:subClassOf :Mixer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Submersible_Pressure_Transducer
+:Submersible_Pressure_Transducer rdf:type owl:Class ;
+                                 rdfs:subClassOf :Water_Monitoring .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Sump
+:Sump rdf:type owl:Class ;
+      rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Support
+:Support rdf:type owl:Class ;
+         rdfs:subClassOf :Civil .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Surge_Arrester
+:Surge_Arrester rdf:type owl:Class ;
+                rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Swale
+:Swale rdf:type owl:Class ;
+       rdfs:subClassOf :Channel .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switch
+:Switch rdf:type owl:Class ;
+        rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switch_High_Voltage
+:Switch_High_Voltage rdf:type owl:Class ;
+                     rdfs:subClassOf :Switch .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switch_High_Voltage_-_Fused
+:Switch_High_Voltage_-_Fused rdf:type owl:Class ;
+                             rdfs:subClassOf :Switch .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switch_High_Voltage_-_Load_break
+:Switch_High_Voltage_-_Load_break rdf:type owl:Class ;
+                                  rdfs:subClassOf :Switch .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switch_High_Voltage_-_No_load_break
+:Switch_High_Voltage_-_No_load_break rdf:type owl:Class ;
+                                     rdfs:subClassOf :Switch .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switch_Low_Voltage
+:Switch_Low_Voltage rdf:type owl:Class ;
+                    rdfs:subClassOf :Switch .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switch_Low_Voltage_-_Fused
+:Switch_Low_Voltage_-_Fused rdf:type owl:Class ;
+                            rdfs:subClassOf :Switch .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switch_Low_Voltage_-_Load_break
+:Switch_Low_Voltage_-_Load_break rdf:type owl:Class ;
+                                 rdfs:subClassOf :Switch .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switch_Low_Voltage_-_No_load_break
+:Switch_Low_Voltage_-_No_load_break rdf:type owl:Class ;
+                                    rdfs:subClassOf :Switch .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Switchboard
+:Switchboard rdf:type owl:Class ;
+             rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/System_Software
+:System_Software rdf:type owl:Class ;
+                 rdfs:subClassOf :Software .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/TV-CCTV_Camera
+:TV-CCTV_Camera rdf:type owl:Class ;
+                rdfs:subClassOf :Security .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Tank
+:Tank rdf:type owl:Class ;
+      rdfs:subClassOf :Containment_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Tap
+:Tap rdf:type owl:Class ;
+     rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Telephone
+:Telephone rdf:type owl:Class ;
+           rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Data_&_Telco> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Temperature_Indicating_Transmitter
+:Temperature_Indicating_Transmitter rdf:type owl:Class ;
+                                    rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Temperature_Switch
+:Temperature_Switch rdf:type owl:Class ;
+                    rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Temperature_Transmitter
+:Temperature_Transmitter rdf:type owl:Class ;
+                         rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Test_Point
+:Test_Point rdf:type owl:Class ;
+            rdfs:subClassOf :Cathodic_Protection .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Thermal_Mass
+:Thermal_Mass rdf:type owl:Class ;
+              rdfs:subClassOf :Flow_Element .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Timer_Switch
+:Timer_Switch rdf:type owl:Class ;
+              rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Tool
+:Tool rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Torque_Switch
+:Torque_Switch rdf:type owl:Class ;
+               rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Trace_Heating
+:Trace_Heating rdf:type owl:Class ;
+               rdfs:subClassOf :Heater .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Track
+:Track rdf:type owl:Class ;
+       rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Roads_&_Bridges> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Transformer
+:Transformer rdf:type owl:Class ;
+             rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Treatment_Plant
+:Treatment_Plant rdf:type owl:Class ;
+                 rdfs:subClassOf :Location .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Tunnel
+:Tunnel rdf:type owl:Class ;
+        rdfs:subClassOf :Chamber ,
+                        :Pipe .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Turbine
+:Turbine rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/UV_Lamp_Module
+:UV_Lamp_Module rdf:type owl:Class ;
+                rdfs:subClassOf :Lighting .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Ultrasonic
+:Ultrasonic rdf:type owl:Class ;
+            rdfs:subClassOf :Flow_Element ,
+                            :Level_Element ,
+                            :Water_Monitoring .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Uninterruptable_Power_Supply
+:Uninterruptable_Power_Supply rdf:type owl:Class ;
+                              rdfs:subClassOf :Electrical .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Unknown
+:Unknown rdf:type owl:Class ;
+         rdfs:subClassOf :Site_Services .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Vacuum
+:Vacuum rdf:type owl:Class ;
+        rdfs:subClassOf :Pipe .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Vacuum_Breaker
+:Vacuum_Breaker rdf:type owl:Class ;
+                rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Vacuum_Interface
+:Vacuum_Interface rdf:type owl:Class ;
+                  rdfs:subClassOf :Valve .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Valve
+:Valve rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Valve_Chamber
+:Valve_Chamber rdf:type owl:Class ;
+               rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Valve_Tower
+:Valve_Tower rdf:type owl:Class ;
+             rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Vane
+:Vane rdf:type owl:Class ;
+      rdfs:subClassOf :Pump .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Variable_Speed_Drive
+:Variable_Speed_Drive rdf:type owl:Class ;
+                      rdfs:subClassOf :Starter .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Venturi
+:Venturi rdf:type owl:Class ;
+         rdfs:subClassOf :Mechanical_Fittings .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Vessel_with_Pressurised_Bladder
+:Vessel_with_Pressurised_Bladder rdf:type owl:Class ;
+                                 rdfs:subClassOf :Damper .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Vibrator
+:Vibrator rdf:type owl:Class ;
+          rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Voltage
+:Voltage rdf:type owl:Class ;
+         rdfs:subClassOf :Transformer .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Wall
+:Wall rdf:type owl:Class ;
+      rdfs:subClassOf :Retaining_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Warning_Horn
+:Warning_Horn rdf:type owl:Class ;
+              rdfs:subClassOf :Electrical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Washdown_Unit
+:Washdown_Unit rdf:type owl:Class ;
+               rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Washerpactor_Unit
+:Washerpactor_Unit rdf:type owl:Class ;
+                   rdfs:subClassOf :Mechanical_Rotating .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Water
+:Water rdf:type owl:Class ;
+       rdfs:subClassOf :Diffuser ,
+                       :Turbine .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Water_Demineraliser
+:Water_Demineraliser rdf:type owl:Class ;
+                     rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Water_Distribution_Network
+:Water_Distribution_Network rdf:type owl:Class ;
+                            rdfs:subClassOf :Location .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Water_Extraction
+:Water_Extraction rdf:type owl:Class ;
+                  rdfs:subClassOf :Well .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Water_Meter
+:Water_Meter rdf:type owl:Class ;
+             rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Water_Monitoring
+:Water_Monitoring rdf:type owl:Class ;
+                  rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Water_Softener
+:Water_Softener rdf:type owl:Class ;
+                rdfs:subClassOf :Mechanical_Static .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Weather_Station
+:Weather_Station rdf:type owl:Class ;
+                 rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Weight_Indicating_Transmitter
+:Weight_Indicating_Transmitter rdf:type owl:Class ;
+                               rdfs:subClassOf :Instrument .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Weir
+:Weir rdf:type owl:Class ;
+      rdfs:subClassOf :Retaining_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Well
+:Well rdf:type owl:Class ;
+      rdfs:subClassOf :Containment_Structure .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Wet
+:Wet rdf:type owl:Class ;
+     rdfs:subClassOf :Gear_Plate .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Wet_Well
+:Wet_Well rdf:type owl:Class ;
+          rdfs:subClassOf :Chamber .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Whip
+:Whip rdf:type owl:Class ;
+      rdfs:subClassOf :Antenna .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Wind
+:Wind rdf:type owl:Class ;
+      rdfs:subClassOf :Turbine .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Wing_Wall
+:Wing_Wall rdf:type owl:Class ;
+           rdfs:subClassOf :Wall .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Wire_and_post_fence
+:Wire_and_post_fence rdf:type owl:Class ;
+                     rdfs:subClassOf :Fence .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Workstation
+:Workstation rdf:type owl:Class ;
+             rdfs:subClassOf <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Computer/Server> .
+
+
+###  http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto/Yagi
+:Yagi rdf:type owl:Class ;
+      rdfs:subClassOf :Antenna .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Conduits_&_Pipes>
+                <http://www.semanticweb.org/azabin/ontologies/2024/1/WTPonto#Roads_&_Bridges>
+                :Buildings
+                :Containment_Structure
+                :Control_System
+                :Electrical_Static
+                :Electrical_rotating
+                :Instrument
+                :Mechanical_Rotating
+                :Mechanical_Static
+                :Retaining_Structure
+                :Tool
+                :Valve
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Pump_Station
+                :Treatment_Plant
+                :Water_Distribution_Network
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
