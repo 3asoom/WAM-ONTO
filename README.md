@@ -221,10 +221,11 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ## 📚 Documentation
 
-- **[User Guide](documentation/user-guide.md)**: Comprehensive usage documentation
-- **[API Reference](documentation/api-reference.md)**: SPARQL endpoints and queries  
-- **[Integration Guide](documentation/integration-guide.md)**: BIM/CMMS integration
-- **[Architecture Overview](documentation/architecture.md)**: Technical design details
+- **[Sample Queries](examples/sample-queries.rq)**: 30 practical SPARQL examples
+- **[Contributing Guide](CONTRIBUTING.md)**: Development and contribution guidelines  
+- **[Ontology Structure](#ontology-structure)**: Core classes and domains (see above)
+
+*Additional documentation (User Guide, API Reference, Integration Guide) is under development. Contributions welcome!*
 
 ## 🎓 Academic Usage
 
