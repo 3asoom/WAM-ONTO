@@ -1,28 +1,27 @@
-# Water Asset Management Ontology (WAM-ONTO)
+# WAM-ONTO: Water Asset Management Ontology
 
-**A standardized ontology for water treatment plant asset management**
+A comprehensive semantic framework for water treatment plant asset management that integrates Building Information Modeling (BIM) with formal ontologies to enable automated reasoning and intelligent decision support.
 
-WAM-ONTO is a comprehensive framework designed to represent and manage water treatment plant assets, their relationships, and associated data. It aims to improve decision-making, optimize operations, and facilitate data exchange within the water treatment industry.
+## Overview
 
-## Key Features
-* Hierarchical classification of water treatment plant assets
-* Representation of asset relationships and dependencies
-* Support for asset lifecycle management
-* Integration with BIM and other data sources
+WAM-ONTO addresses the critical challenge of knowledge fragmentation in water infrastructure management by providing the first domain-specific ontological framework for water treatment facilities. The framework enables seamless integration between design knowledge (BIM/IFC) and operational asset management through automated semantic reasoning.
 
+### Key Features
 
-## Usage
-* Enhance information requirements for water asset O&M
-* Promote seamless information exchange between disparate systems
-* Facilitate efficient information retrieval using structured queries.
+- **996 specialized ontology classes** across 12 knowledge domains
+- **Automated BIM integration** with 91% classification accuracy
+- **Semantic reasoning capabilities** for maintenance, risk assessment, and compliance
+- **Expert validated** with 96% consensus among domain specialists
+- **Real-world tested** with Clean-in-Place (CIP) system case study
 
+## Quick Start
 
-## License
-Apache License 2.0
+### Prerequisites
+- Protégé 5.5.0 or later
+- Apache Jena 4.7.0 for SPARQL processing
+- Minimum 8GB RAM for reasoning operations
 
-## Contact
-Asem Zabin
-azab168@aucklanduni.ac.nz
-
-
-
+### Installation
+```bash
+git clone https://github.com/3asoom/WAM-ONTO.git
+cd WAM-ONTO
